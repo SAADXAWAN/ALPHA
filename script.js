@@ -10,7 +10,14 @@ function attemptLogin() {
    
         errorMessage.textContent = "";
         window.location.href = "dashboard.htm"; // Redirect to a dashboard page
-    } else {
+    }
+        if (username === "sufyan" && password === "sufyan14") {
+        // Redirect to a dashboard or perform other actions upon successful login
+        alert("Login successful!");
+        errorMessage.textContent = "";
+        window.location.href = "dashboard.htm"; // Redirect to a dashboard page
+    }
+    else {
         errorMessage.textContent = "Invalid username or password";
     }
 }
