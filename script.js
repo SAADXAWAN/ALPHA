@@ -11,7 +11,7 @@ function attemptLogin() {
         errorMessage.textContent = "";
         window.location.href = "dashboard.htm"; // Redirect to a dashboard page
     }
-        if (username === "sufyan" && password === "sufyan14") {
+        if (username === "Sufyan" && password === "sufyan") {
         // Redirect to a dashboard or perform other actions upon successful login
         alert("Login successful!");
         errorMessage.textContent = "";
