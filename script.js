@@ -13,7 +13,7 @@ function attemptLogin() {
     }
         if (username === "Sufyan" && password === "sufyan") {
         // Redirect to a dashboard or perform other actions upon successful login
-        alert("Login successful!");
+        
         errorMessage.textContent = "";
         window.location.href = "dashboard.htm"; // Redirect to a dashboard page
     }
